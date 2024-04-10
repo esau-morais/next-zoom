@@ -11,6 +11,7 @@ export const UpcomingMeetingTitle = () => {
         <span>
           Upcoming Meeting at:{' '}
           {new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' }).format(
+            // TODO: revalidate when scheduling meeting
             upcomingCalls[0].state.startsAt,
           )}
         </span>
