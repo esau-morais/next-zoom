@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: 'iconButton',
-            logoImageUrl: '/icons/next-zoom-logo.svg',
+            logoImageUrl: '/icons/logo.svg',
           },
           variables: {
             colorText: '#fff',
